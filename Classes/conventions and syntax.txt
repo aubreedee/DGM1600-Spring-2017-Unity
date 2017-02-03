@@ -1,0 +1,28 @@
+conventions and syntax
+
+Conventions:
+    conventions is how the code is written-the framework 
+    -white space/indents
+    -formatting
+
+Syntax:
+    Syntax is the sematics of code.
+    It affects how the code runs, and will error if the code is incorrect.
+    -braces
+    -periods
+    -terminology
+
+the dot opperator helps break or narrow down to a specific operation/location.
+
+Example
+
+Debug.Log(transform.position.x)         Like country.state.city.street
+
+    transform
+      -position = units (feet, meters, etc.)
+      -rotation = degrees
+      -scale = standard units
+
+an exapmle of the dot opperator narrowing down to a specific vehicle.
+
+GM.Chevy(SUV.7passenger.Suburban)
