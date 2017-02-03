@@ -12,11 +12,12 @@ Syntax:
     -periods
     -terminology
 
-the dot opperator helps break or narrow down to a specific operation/location.
+The dot opperator helps break or narrow down to a specific operation/location.
+It is used for items that hold or have multiple options or varibles.
 
 Example
 
-Debug.Log(transform.position.x)         Like country.state.city.street
+Debug.Log(transform.position.x)         Like: country.state.city.street
 
     transform
       -position = units (feet, meters, etc.)
