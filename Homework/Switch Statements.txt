@@ -1,0 +1,69 @@
+Switch Statements
+
+Use switch statements if nesting more thatn 2 if-else statements. Switch statements work well with conversations. 
+
+
+example #1:
+
+    public class conversationScript : MonoBehavior {
+
+        public int intelligence = 5;
+
+        void Greet()
+        {
+            switch (intelligence)
+            {
+            case 5:
+                print ("Why hello there good sir! Let me teach you about Trig.");
+                break;
+            case 4:
+                print ("Hello and good day!");
+                break;
+            case 3: 
+                print ("Whadya want?");
+                break;
+            case 2:
+                print ("Me Shrek");
+                break;
+            case 1:
+                print ("plhebbbbbb");
+                break;
+            default:
+                print("Incorrect intelligence level");
+                break;
+            }
+        }
+    }
+// default works like an else statement. It is used if it is not caught by a preceeding conditional.
+
+    
+    
+example #2
+
+public class Switch : MonoBehavior {
+
+    void Start () {
+        string light = "green";
+
+        switch(light){
+            case "red":
+                print("The light is red--STOP for crying out loud!!!");
+                break;
+            case "yellow":
+                print("The light is yellow--Slow down please!");
+                break;
+            case "green"
+                print("the light is green--GO DOG GO!!!");
+                break;
+            default:
+				print("That's not a valid color!");
+			break;
+            
+        }
+    }
+}
+
+
+
+example #3
+
