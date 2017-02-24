@@ -1,0 +1,97 @@
+Notes on Arrays 2-23-2017 DGM 1600
+
+Arrays are "containers" of specific catagory of items. Similar to an egg carton, 
+it works as a place holder for items in a catagory.
+
+
+
+//Example #1 (example from Array video)
+
+using UnityEngine;
+using System.Collections'
+
+public class Arrays : MonoBehaviour
+{
+        int[] myIntArray = {12, 76, 8, 937, 903}
+        
+        void Start(
+            {
+                    myIntArray[4] = 57
+            }
+        )
+}
+
+
+//Example #2 (used in unity project as an example provided by Preston)
+
+using UnityEngine;
+using System.Collections;
+
+public class Array: MonoBehaviour {
+
+	public string[] friends= {"Bob", "Sue", "Charlie", "Ann"};
+
+	// Use this for initialization
+	void Start () {
+		for(int i=0; i<friends.Length; i++)
+		{
+			print("Hello" + friends[i]);
+		}
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
+
+
+//Example #3 (personal)
+
+using UnityEngine;
+using System.Collections;
+
+public class Array2 : MonoBehaviour {
+
+	public string[] ingredients= {"eggs", "chocolate chips", "brown sugar", "flour"};
+
+	// Use this for initialization
+	void Start () {
+
+		for(int i=0; i<ingredients.Length; i++)
+		{
+			print("need" + ingredients[i]);
+		}	
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
+
+
+//Example #4 (personal)
+
+
+using UnityEngine;
+using System.Collections;
+
+public class Array3 : MonoBehaviour {
+
+	public string[] joke= {"goes to college", "is so fat she has her own gravity", "is so fat she thought the rings of Saturn were hula hoops", "is so poor she can't afford to pay attention"};
+
+
+	// Use this for initialization
+	void Start () {
+		for(int i=0; i<joke.Length; i++ )
+		{
+			print ("yo mamma " + joke[i]);
+		}
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
