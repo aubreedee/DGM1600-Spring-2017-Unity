@@ -1,0 +1,5 @@
+Notes on Lists and Dictionaries
+
+List: where an array is specificaly one type, a list is more dynamic in that you can have 
+multiple types within the lists.
+
