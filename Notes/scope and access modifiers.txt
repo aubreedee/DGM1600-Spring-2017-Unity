@@ -1,0 +1,31 @@
+Notes on Scope and Access Modifiers
+
+Scope:
+The scope is from the opening brace to the closing brace of any statement, class, function etc. 
+
+Access Modifiers:
+It deals with the access to a variable by determining if access is public, private, local or globaly.
+From the C# pocket book the definition for Access Modifiers is:
+    "...a type or type member may limit its accessibility to other types and other assemblies by adding
+        one of five access modifiers to the declaration:
+        
+        public:
+            Fully accessible. This is the implicit accessibility for members of an enum or interface.
+        internal:
+            Accessible only within the containing assembly or friend assemblies. This is the default
+            accessiblilty for non-nested types.
+        private:
+            Accessible only within the containing type. This sis the default accessibility for members 
+            of a class or struct.
+        protected:
+            Accessibile only within the containing type or subclasses.
+        protected internal:
+            the union of protected and internal accessibility (this is more permissive than protected
+            or internal alone, in that it makes a member more accessible in two ways)."
+
+I kind of look at access modifiers the way we have our personal computer set up. The "Admin Login" which
+has access to all the programs/files (public or globaly), and then the personal logins which has access to
+only certain programs and files. Also files created on the personal account are only accessible from that 
+account. 
+
+        
