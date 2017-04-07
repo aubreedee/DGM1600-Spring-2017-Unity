@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Calc_Switch.unity
+  isLoaded: 1
+  isActive: 1
